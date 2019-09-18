@@ -15,7 +15,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(603, 873);
+  createCanvas(600, 900);
   print(img.width + ' • ' + img.height);
   colorMode (RGB);
 }
