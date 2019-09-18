@@ -1,5 +1,8 @@
 'use strict';
 
+document.addEventListener('touchmove', function(e) {e.preventDefault();}, {passive: false});
+
+
 var drawMode = 1;
 
 var img;
